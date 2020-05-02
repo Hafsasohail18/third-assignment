@@ -1,0 +1,272 @@
+
+
+
+
+
+.container-fluid1 {
+  background-color: rgba(41, 90, 224, 0.904);
+}
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 15px;
+  text-align: right;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:none;
+  color: white;
+}
+
+.fa-twitter {
+  background:none;
+  color: white;
+}
+
+.fa-youtube {
+  background: none;
+  color: white;
+}
+
+.fa-instagram {
+  background:none;
+  color: white;
+}
+.fa-whatsapp {
+  background:none;
+  color: white;
+}
+.navbar{
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+}
+.button{
+  width: max-content;
+  height: max-content;
+}
+button{
+  width: 100px;
+  height: 30px;
+  font-size: 11px;
+  background-color:rgb(243, 235, 224);
+  border: none;
+}
+.main{
+  background-color: rgb(243, 235, 224);
+  height: 60px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.button1:hover{
+  background-color:rgba(41, 90, 224, 0.904) ;
+  color: white;
+  }
+  .marquee{
+color: white;
+background-color: rgba(41, 90, 224, 0.904);
+width:auto;
+  }
+  .green{
+    color: rgb(135, 185, 111);
+  }
+  .red{
+    color:rgb(240, 114, 114);
+  }
+  h1{
+    text-align: center;
+  }
+  .blue{
+    color: rgba(41, 90, 224, 0.904);
+  }
+  p{
+    color: rgba(0, 0, 0, 0.63);
+    font:17px arial;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+   .container1{
+     background-color: rgba(41, 90, 224, 0.904);
+     display: flex;
+     justify-content: center;
+   }
+   .col-sm{
+     text-align: center;
+     font-size: 30px;
+     color: white;
+    
+   }
+   .row1{
+    padding: 40px;
+    display: block;
+    float: left;
+    margin: 2px;
+   }
+   h5{
+     font-size: 15px;
+   }
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background-color: #f7f8fa;
+  }
+  
+
+  .container-fluid .container>h1 {
+    text-align: center;
+    color: rgb(135, 185, 111);
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  
+  .container-fluid .container>h1>span {
+    color: rgba(41, 90, 224, 0.904);
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .center-image {
+    width: 5%;
+    margin: 0 auto;
+  }
+  
+  .center-image>img {
+    width: 40px;
+    height: 40px;
+  }
+
+  
+.four-columns-container {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.four-columns {
+  text-align: center;
+  font-weight: 600 !important;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+
+.four-columns>img {
+  height: 40px;
+}
+
+.four-columns>h5>span {
+  color: rgb(135, 185, 111);
+}
+
+.four-columns>h2 {
+  font-family: 'Merriweather';
+  src: url('fonts/Merriweather-Regular.ttf');
+  line-height: 1.5;
+  font-weight: 500px;
+  font-size: 42px;
+}
+
+  .six-columns {
+    text-align: center;
+    background-color: #fff !important;
+    padding: 30px !important;
+    margin-bottom: 30px !important;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+  }
+  
+  .six-columns>h4 {
+    font-weight: 600px;
+    margin-top: 20px;
+    vertical-align: inherit;
+    color: rgba(41, 90, 224, 0.904);
+  }
+  
+  .six-columns>img {
+    width: 70p;
+  }
+
+  .slider {
+    width: 100%;
+    height: 530px;
+  }
+  
+
+  .paragraph{
+    text-align: justify;
+  }
+  .container-fluid .container>h3{
+    color: rgba(41, 90, 224, 0.904);
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > * {
+      margin: 5px;
+    }
+  }
+  
+  .media {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  
+  @media (max-width: 800px){
+    body {
+      transform: scale(0.6);
+    }
+  }
+  
+  @media (max-width: 600px) {
+      .wrapper {
+      display: block;
+      >* {
+        margin: 10px;
+      }
+    }
+  }
+  .col-6-col-sm-3{
+    background-color: rgb(184, 210, 228);
+    width:400px;
+  }
+  .footer{
+    background-color: rgba(0, 0, 0, 0.63);
+  }
+  .container-fluid .footer>h5{
+    color: white;
+    text-decoration: rgb(135, 185, 111) underline;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container-fluid .footer>h6{
+    text-align: left;
+    color: silver;
+  }
+  li{
+    color: silver;
+    margin: 10px 0px 10px 0px;
+  }
+  
